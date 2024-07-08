@@ -1,33 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-.navbar{
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 200px;
+.navbar {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 200px;
 }
-.mary{
-    font-size: 40px;
+.mary {
+  font-size: 40px;
 }
-.name{
-    color: #FD6E0A;
+.name {
+  color: #fd6e0a;
 }
-ul{
-    display: flex;
-    list-style: none;
+ul {
+  display: flex;
+  list-style: none;
 }
 
-.navbar ul li{
-    margin-right: 50px;
+.navbar ul li {
+  margin-right: 50px;
 }
-.navbar ul li a{
-    text-decoration: none;
-    color: #2c2b2b;
+.navbar ul li a {
+  text-decoration: none;
+  color: #2c2b2b;
+  font-size: 20px;
+}
+
+/* Btn Hire Me */
+#btn-primary {
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  background: #fd6e0a;
+  color: white;
+  box-shadow: 0px 3px 5px 0px;
+  border-radius: 5px;
+}
+
+
+/* banner styles */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 200px;
+    align-items: center;
+}
+.banner-contect{
+    max-width: 580px;
+}
+.banner-greeting{
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-description{
+    color: #424242;
     font-size: 20px;
+    padding: 10px 0 20px 0;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.banner-picture{
+    width: 500px;
 }
